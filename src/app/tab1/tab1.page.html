@@ -18,11 +18,12 @@
     <ion-img src="../../assets/img/urna.webp"></ion-img>
     <ion-card-header>
       <ion-card-title>Eleições 2022</ion-card-title>
-      <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>      
+      <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>
     </ion-card-header>
     <ion-card-content>
       Bem vindo a Urna Eletrônica virtual! Aqui você realiza seu voto para as Eleições 2022. Votos para Presidente da República, Governador, Senador, Deputado Federal e Deputado Estadual.
-      <ion-button color="primary" tab="tab2">Iniciar votação</ion-button>
+      <ion-button routerLink="/votacao" expand="full" color="primary" tab="tab2">Iniciar votação</ion-button>
+      <router-outlet></router-outlet>
     </ion-card-content>
   </ion-card>
 </ion-content>
