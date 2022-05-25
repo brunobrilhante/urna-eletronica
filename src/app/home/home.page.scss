@@ -1,12 +1,3 @@
-.lines {
-  border-right: 1px solid blue;
-  border-bottom: 1px solid blue;
-  background-size: calc(720px / 18) calc(720px / 18);
-  background-image:
-      linear-gradient(to right, grey 1px, transparent 1px),
-      linear-gradient(to bottom, grey 1px, transparent 1px);
-}
-
 .gov {
   max-height: 10rem;
   max-width: 10rem;
@@ -19,6 +10,8 @@
 .eleicoes{
   position: relative;
   bottom: 4rem;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .botao-voltar {
@@ -34,7 +27,9 @@
   position: relative;
   left: 4rem;
   color: black;
-  bottom: 4rem;
+  bottom: 5rem;
+  border-bottom: solid 1px #0031AE;
+  
 }
 
 .mini-card{
@@ -42,4 +37,37 @@
   top: 0.4rem;
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.input {
+  border: solid 1px #0031AE;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input-btn {
+  border: solid 1px #0031AE;
+  border-radius: 11px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom: solid 10px #0031AE;
+  border-right: solid 8px #0031AE;
+  width: 160px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  left: 60px;
+  color: #0031AE !important;
+  --background: white;
+}
+
+.line {
+  background-color: white;
+  max-height: 1px !important;
+  position: relative;
+  width: 100%;
+  border-top: solid 1px #0031AE;
 }
