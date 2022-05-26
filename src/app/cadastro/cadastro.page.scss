@@ -5,6 +5,7 @@
   left: 6rem;
   bottom: 1rem;
   display: grid;
+  margin-top: 20px;
 }
 
 .eleicoes{
@@ -21,20 +22,12 @@
   height: 1.5rem;
 }
 
-.botao-voltar {
-  position: relative;
-  bottom: 3rem;
-  left: 1rem;
-  display: grid;
-  width: 2rem;
-  height: 2rem;
-}
-
-.login-text{
+.cadastro-text{
   position: relative;
   left: 4rem;
   color: black;
   bottom: 5rem;
+  margin-top: 150px;
 }
 
 .mini-card{
@@ -106,9 +99,18 @@
 
 .alinhamento {
   position: relative;
-  left: 55px;
+  left: 60px;
 }
 
-.toolbar {
-  visibility: hidden;
+.botao-img {
+  position: relative;
+  top: 40px;
+  left: 30px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
+.xetelba {
+  position: relative;
+  left: 16px;
+ }

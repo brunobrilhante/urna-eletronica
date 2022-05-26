@@ -1,6 +1,5 @@
 <ion-header [translucent]="false">
-  <ion-toolbar>
-
+  <ion-toolbar class="toolbar">
   </ion-toolbar>
 </ion-header>
 
@@ -16,17 +15,15 @@
   <ion-img src="../../assets/img/Eleicao2022.png" class="eleicoes"></ion-img>
 
   <div class="login-text">
-    <ion-subtitle size="large" ><strong>IDENTIFIQUE-SE NO GOV.COM.BR</strong></ion-subtitle> <br><br>
+    <ion-subtitle size="large" ><strong>IDENTIFIQUE-SE NA XETELBA.GOV</strong></ion-subtitle> <br><br>
     <ion-subtitle size="large"><img class="mini-card" src="../../assets/img/miniCard.png"/> Número do CPF ou título de eleitor</ion-subtitle>
     <ion-input class="input" placeholder="Digite seu CPF"></ion-input>
-    <ion-input class="input" placeholder="Senha"></ion-input>
+    <ion-input type="password" class="input" placeholder="Senha"></ion-input>
     <ion-button class="input-btn">Login</ion-button> <br><br>
-    <ion-subtitle class="text-cadastro" size="large">NÃO POSSUI CADASTRO? <a class="cadastro"><strong>CADASTRE-SE</strong></a></ion-subtitle> <br><br><br><br><br><br><br><br>
+    <ion-subtitle class="text-cadastro" size="large">NÃO POSSUI CADASTRO? <a routerLink="/cadastro" class="cadastro"><strong>CADASTRE-SE</strong></a></ion-subtitle> <br><br><br><br><br><br><br><br>
 
     <ion-subtitle class="alinhamento"><img class="sobre-img" src="../../assets/img/sobre.png"/><a class="sobre"><i><strong>Sobre o aplicativo</strong></i></a></ion-subtitle>
 
-    <!-- <ion-img src="../../assets/img/sobre.png" class="sobre-img"></ion-img>
-    <a class="sobre"><i><strong>Sobre o aplicativo</strong></i></a> -->
   </div>
   <!-- <ion-item-divider class="line"></ion-item-divider> -->
 
