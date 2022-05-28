@@ -8,13 +8,6 @@
   margin-top: 20px;
 }
 
-.eleicoes{
-  position: relative;
-  bottom: 4rem;
-  max-width: 400px;
-  max-height: 400px;
-}
-
 .sobre-img{
   position: relative;
   top: 0.4rem;
@@ -28,13 +21,6 @@
   color: black;
   bottom: 5rem;
   margin-top: 150px;
-}
-
-.mini-card{
-  position: relative;
-  top: 0.4rem;
-  width: 1.5rem;
-  height: 1.5rem;
 }
 
 .input {
@@ -70,18 +56,6 @@
   border-top: solid 1px #0031AE;
 }
 
-.cadastro {
-  text-decoration: underline;
-  color: black;
-  transition: ease-in-out 0.4s;
-  position: relative;
-}
-
-.cadastro:hover{
-  color: #0031AE;
-  transition: ease-in-out 0.4s;
-}
-
 .sobre {
   color: black;
   transition: ease-in-out 0.4s;
@@ -90,11 +64,6 @@
 .sobre:hover {
   color: #0031AE;
   transition: ease-in-out 0.4s;
-}
-
-.text-cadastro {
-  position: relative;
-  right: 10px;
 }
 
 .alinhamento {

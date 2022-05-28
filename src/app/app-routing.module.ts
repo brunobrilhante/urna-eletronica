@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'sobre',
     loadChildren: () => import('./sobre/sobre.module').then( m => m.SobrePageModule)
   },
+  {
+    path: 'votacao',
+    loadChildren: () => import('./votacao/votacao.module').then( m => m.VotacaoPageModule)
+  },
 ];
 
 @NgModule({
