@@ -1,9 +1,81 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>votacao</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-header [translucent]="false">
 
-<ion-content>
+</ion-header>
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+      <a routerLink="/home"><img class="botao-img" src="../../assets/img/BotaoVoltar.png"/></a>
+      <div>
+        <ion-img class="gov" src="../../assets/img/gov.br.png"></ion-img>
+      </div>
+      <ion-item-divider class="line"></ion-item-divider>
+  </ion-header>
+
+  <ion-card class="foto-candidate">
+    <ion-img  src="https://thumbs2.imgbox.com/36/40/zuic54gI_t.jpg"></ion-img>
+    <ion-card-header>
+
+    </ion-card-header>
+    <ion-card-content>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-grid class="teclado">
+    <ion-row>
+      <ion-col size="4">
+        <ion-button class="botao-voto">1</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button class="botao-voto">2</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button class="botao-voto">3</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4">
+        <ion-button class="botao-voto">4</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button class="botao-voto">5</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button class="botao-voto">6</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4">
+        <ion-button class="botao-voto">7</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button class="botao-voto">8</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button class="botao-voto">9</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4">
+        <ion-button style="visibility:hidden"></ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button class="botao-voto">0</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button style="visibility:hidden"></ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4">
+        <ion-button class="botao-branco">BRANCO</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button class="botao-corrige">CORRIGE</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button class="botao-confirma">CONFIRMA</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>
