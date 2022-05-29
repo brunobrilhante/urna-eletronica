@@ -1,115 +1,116 @@
 .botao-img {
-  position: relative;
-  top: 40px;
-  left: 30px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.gov {
-  max-height: 15rem;
-  max-width: 15rem;
-  position: relative;
-  left: 6rem;
-  bottom: 1rem;
-  display: grid;
-  margin-top: 20px;
-}
-
-.line {
-  background-color: white;
-  max-height: 1px !important;
-  position: relative;
-  bottom: 10px;
-  width: 100%;
-  height: 0px;
-  border-top: solid 1px #0031AE;
-}
-
-.botao-voto {
-  --background: black;
-  width: 65px;
-  height: 65px;
-  font-size: 40px;
-
-  border: solid 1px #303031;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 13px;
-  border-bottom: solid 12px #303031;
-  border-right: solid 95px #303031;
-}
-
-.botao-branco {
-  --background: white;
-  color: black;
-  width: 100px;
-  height: 90px;
-  font-size: 15px;
-
-  border: solid 1px #dddde0;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 13px;
-  border-bottom: solid 12px #dddde0;
-  border-right: solid 12px #dddde0;
-}
-
-.botao-corrige {
-  --background: #DF7244;
-  color: black;
-  width: 100px;
-  height: 90px;
-  font-size: 15px;
-
-  border: solid 1px #ee6a31;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 23px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 13px;
-  border-bottom: solid 12px #ee6a31;
-  border-right: solid 12px #ee6a31;
-}
-
-.botao-confirma {
-  --background: #25A95D;
-  color: black;
-  width: 100px;
-  height: 90px;
-  font-size: 15px;
-
-  border: solid 1px #049942;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 13px;
-  border-bottom: solid 12px #049942;
-  border-right: solid 12px #049942;
-}
-
-.foto-candidate {
-  border-radius: 30px;
-  height: 300px;
-  width: 300px;
-  position: relative;
-  left: 41px;
-}
-
-.teclado {
-  padding: 18px;
-  position: relative;
-  bottom: 84px;
-}
-
-.card-candidate {
-  --background: #ffffff;
-  box-shadow: #fcfcfc;
-  position: relative;
-  bottom: 40px;
-}
-
-.titulo {
-  font-size: 20px;
-}
+    position: relative;
+    top: 40px;
+    left: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .gov {
+    max-height: 15rem;
+    max-width: 15rem;
+    position: relative;
+    left: 6rem;
+    bottom: 1rem;
+    display: grid;
+    margin-top: 20px;
+  }
+  
+  .line {
+    background-color: white;
+    max-height: 1px !important;
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    height: 0px;
+    border-top: solid 1px #0031AE;
+  }
+  
+  .botao-voto {
+    --background: black;
+    width: 65px;
+    height: 65px;
+    font-size: 40px;
+  
+    border: solid 1px #303031;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 13px;
+    border-bottom: solid 12px #303031;
+    border-right: solid 95px #303031;
+  }
+  
+  .botao-branco {
+    --background: white;
+    color: black;
+    width: 100px;
+    height: 90px;
+    font-size: 15px;
+  
+    border: solid 1px #dddde0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 13px;
+    border-bottom: solid 12px #dddde0;
+    border-right: solid 12px #dddde0;
+  }
+  
+  .botao-corrige {
+    --background: #DF7244;
+    color: black;
+    width: 100px;
+    height: 90px;
+    font-size: 15px;
+  
+    border: solid 1px #ee6a31;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 23px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 13px;
+    border-bottom: solid 12px #ee6a31;
+    border-right: solid 12px #ee6a31;
+  }
+  
+  .botao-confirma {
+    --background: #25A95D;
+    color: black;
+    width: 100px;
+    height: 90px;
+    font-size: 15px;
+  
+    border: solid 1px #049942;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 13px;
+    border-bottom: solid 12px #049942;
+    border-right: solid 12px #049942;
+  }
+  
+  .foto-candidate {
+    border-radius: 30px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 41px;
+  }
+  
+  .teclado {
+    padding: 18px;
+    position: relative;
+    bottom: 84px;
+  }
+  
+  .card-candidate {
+    --background: #ffffff;
+    box-shadow: #fcfcfc;
+    position: relative;
+    bottom: 40px;
+  }
+  
+  .titulo {
+    font-size: 20px;
+  }
+  

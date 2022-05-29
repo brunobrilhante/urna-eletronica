@@ -1,7 +1,7 @@
 {
-  "name": "voting-machine",
+  "name": "urna",
   "integrations": {
-    "capacitor": {}
+    "cordova": {}
   },
   "type": "angular"
 }

@@ -1,85 +1,86 @@
 .gov {
-  max-height: 15rem;
-  max-width: 15rem;
-  position: relative;
-  left: 6rem;
-  bottom: 1rem;
-  display: grid;
-  margin-top: 20px;
-}
-
-.sobre-img{
-  position: relative;
-  top: 0.4rem;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.cadastro-text{
-  position: relative;
-  left: 4rem;
-  color: black;
-  bottom: 5rem;
-  margin-top: 150px;
-}
-
-.input {
-  border: solid 1px #0031AE;
-  border-radius: 10px;
-  width: 300px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.input-btn {
-  border: solid 1px #0031AE;
-  border-radius: 11px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom: solid 10px #0031AE;
-  border-right: solid 8px #0031AE;
-  width: 160px;
-  text-align: center;
-  margin-top: 20px;
-  position: relative;
-  left: 60px;
-  color: #0031AE !important;
-  --background: white;
-}
-
-.line {
-  background-color: white;
-  max-height: 1px !important;
-  position: relative;
-  width: 100%;
-  border-top: solid 1px #0031AE;
-}
-
-.sobre {
-  color: black;
-  transition: ease-in-out 0.4s;
-}
-
-.sobre:hover {
-  color: #0031AE;
-  transition: ease-in-out 0.4s;
-}
-
-.alinhamento {
-  position: relative;
-  left: 60px;
-}
-
-.botao-img {
-  position: relative;
-  top: 40px;
-  left: 30px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.xetelba {
-  position: relative;
-  left: 16px;
-}
+    max-height: 15rem;
+    max-width: 15rem;
+    position: relative;
+    left: 6rem;
+    bottom: 1rem;
+    display: grid;
+    margin-top: 20px;
+  }
+  
+  .sobre-img{
+    position: relative;
+    top: 0.4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .cadastro-text{
+    position: relative;
+    left: 4rem;
+    color: black;
+    bottom: 5rem;
+    margin-top: 150px;
+  }
+  
+  .input {
+    border: solid 1px #0031AE;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .input-btn {
+    border: solid 1px #0031AE;
+    border-radius: 11px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: solid 10px #0031AE;
+    border-right: solid 8px #0031AE;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    left: 60px;
+    color: #0031AE !important;
+    --background: white;
+  }
+  
+  .line {
+    background-color: white;
+    max-height: 1px !important;
+    position: relative;
+    width: 100%;
+    border-top: solid 1px #0031AE;
+  }
+  
+  .sobre {
+    color: black;
+    transition: ease-in-out 0.4s;
+  }
+  
+  .sobre:hover {
+    color: #0031AE;
+    transition: ease-in-out 0.4s;
+  }
+  
+  .alinhamento {
+    position: relative;
+    left: 60px;
+  }
+  
+  .botao-img {
+    position: relative;
+    top: 40px;
+    left: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .xetelba {
+    position: relative;
+    left: 16px;
+  }
+  

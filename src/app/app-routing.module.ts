@@ -16,20 +16,20 @@ const routes: Routes = [
     loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
   },
   {
-    path: 'sobre',
-    loadChildren: () => import('./sobre/sobre.module').then( m => m.SobrePageModule)
-  },
-  {
-    path: 'votacao',
-    loadChildren: () => import('./votacao/votacao.module').then( m => m.VotacaoPageModule)
+    path: 'fim-votacao',
+    loadChildren: () => import('./fim-votacao/fim-votacao.module').then( m => m.FimVotacaoPageModule)
   },
   {
     path: 'resultado',
     loadChildren: () => import('./resultado/resultado.module').then( m => m.ResultadoPageModule)
   },
   {
-    path: 'fim-votacao',
-    loadChildren: () => import('./fim-votacao/fim-votacao.module').then( m => m.FimVotacaoPageModule)
+    path: 'sobre',
+    loadChildren: () => import('./sobre/sobre.module').then( m => m.SobrePageModule)
+  },
+  {
+    path: 'votacao',
+    loadChildren: () => import('./votacao/votacao.module').then( m => m.VotacaoPageModule)
   },
 ];
 

@@ -10,9 +10,8 @@ import { NavController } from '@ionic/angular';
 export class HomePage {
   constructor(private nvCtrl: NavController) {}
 
-  autenticar(dados) {
-    axios
-      .post('http://localhost:8080/urna/authentication', {
+  autenticar(dados) {    
+    axios.post('http://localhost:8080/urna/authentication', {
         ...dados,
       })
       .then(({ data }) => {
