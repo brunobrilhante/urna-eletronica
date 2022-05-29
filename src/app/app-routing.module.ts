@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'resultado',
     loadChildren: () => import('./resultado/resultado.module').then( m => m.ResultadoPageModule)
   },
+  {
+    path: 'fim-votacao',
+    loadChildren: () => import('./fim-votacao/fim-votacao.module').then( m => m.FimVotacaoPageModule)
+  },
 ];
 
 @NgModule({
