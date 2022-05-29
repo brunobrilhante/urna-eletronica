@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import axios from 'axios';
-import { ApiService } from '../service/api.service';
 
 @Component({
   selector: 'app-cadastro',
@@ -9,7 +8,7 @@ import { ApiService } from '../service/api.service';
 })
 export class CadastroPage implements OnInit {
 
-  constructor(private api: ApiService) { }
+  constructor() { }
 
   ngOnInit(): void {
     throw new Error('Method not implemented.');
