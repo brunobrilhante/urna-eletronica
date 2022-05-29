@@ -36,7 +36,8 @@
 
 .text {
   position: relative;
-  left: 60px;
+  left: 22px;
+  font-size: 24px;
 }
 
 .foto-candidate {
@@ -54,5 +55,9 @@
 .nome-candidate {
   color:black;
   position: relative;
-  
+
 }
+ .resultado {
+   position: relative;
+   bottom: 135px;
+ }
