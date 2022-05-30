@@ -17,10 +17,12 @@
   <div class="login-text">
     <ion-subtitle size="large" ><strong>IDENTIFIQUE-SE NA XETELBA.GOV</strong></ion-subtitle> <br><br>
     <ion-subtitle size="large"><img class="mini-card" src="../../assets/img/miniCard.png"/> Número do CPF ou título de eleitor</ion-subtitle>
-    <ion-input type="text" [(ngModel)]="cpf" class="input" placeholder="Digite seu CPF"></ion-input>
+    <ion-input type="text" [(ngModel)]="cpf" class="input" minlength="12" maxlength="12" placeholder="Digite seu CPF"></ion-input>
     <ion-input type="password" [(ngModel)]="senha" class="input" placeholder="Senha"></ion-input>
-    <ion-button (click)="autenticar({cpf, senha})" class="input-btn">Login</ion-button> <br><br>
-    <ion-subtitle class="text-cadastro" size="large">NÃO POSSUI CADASTRO? <a routerLink="/cadastro" class="cadastro"><strong>CADASTRE-SE</strong></a></ion-subtitle> <br><br><br><br><br><br><br><br>
+    <ion-button (click)="autenticar({cpf, senha})" class="input-btn">Login</ion-button><br><br>
+    <!-- <ion-button (click)="presentAlert()" class="input-btn">Login</ion-button><br><br> -->
+    <ion-subtitle class="text-cadastro" size="large">NÃO POSSUI CADASTRO?</ion-subtitle>
+    <a routerLink="/cadastro" class="cadastro"><strong>CADASTRE-SE</strong></a> <br><br><br><br><br><br><br><br>
 
     <ion-subtitle class="alinhamento"><img class="sobre-img" src="../../assets/img/sobre.png"/><a routerLink="/sobre" class="sobre"><i><strong>Sobre o aplicativo</strong></i></a></ion-subtitle>
 

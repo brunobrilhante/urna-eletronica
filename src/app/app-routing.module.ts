@@ -8,12 +8,12 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   {
     path: 'cadastro',
-    loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
+    loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule),
   },
   {
     path: 'fim-votacao',
@@ -30,6 +30,10 @@ const routes: Routes = [
   {
     path: 'votacao',
     loadChildren: () => import('./votacao/votacao.module').then( m => m.VotacaoPageModule)
+  },
+  {
+    path: 'candidatos',
+    loadChildren: () => import('./candidatos/candidatos.module').then( m => m.CandidatosPageModule)
   },
 ];
 

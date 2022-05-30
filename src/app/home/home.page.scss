@@ -7,14 +7,14 @@
   display: grid;
 }
 
-.eleicoes{
+.eleicoes {
   position: relative;
   bottom: 4rem;
   max-width: 400px;
   max-height: 400px;
 }
 
-.sobre-img{
+.sobre-img {
   position: relative;
   top: 0.4rem;
   width: 1.5rem;
@@ -30,14 +30,14 @@
   height: 2rem;
 }
 
-.login-text{
+.login-text {
   position: relative;
   left: 4rem;
   color: black;
   bottom: 5rem;
 }
 
-.mini-card{
+.mini-card {
   position: relative;
   top: 0.4rem;
   width: 1.5rem;
@@ -45,7 +45,7 @@
 }
 
 .input {
-  border: solid 1px #0031AE;
+  border: solid 1px #0031ae;
   border-radius: 10px;
   width: 300px;
   text-align: center;
@@ -53,19 +53,19 @@
 }
 
 .input-btn {
-  border: solid 1px #0031AE;
+  border: solid 1px #0031ae;
   border-radius: 11px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  border-bottom: solid 10px #0031AE;
-  border-right: solid 8px #0031AE;
+  border-bottom: solid 10px #0031ae;
+  border-right: solid 8px #0031ae;
   width: 160px;
   text-align: center;
   margin-top: 20px;
   position: relative;
   left: 60px;
-  color: #0031AE !important;
+  color: #0031ae !important;
   --background: white;
 }
 
@@ -74,7 +74,7 @@
   max-height: 1px !important;
   position: relative;
   width: 100%;
-  border-top: solid 1px #0031AE;
+  border-top: solid 1px #0031ae;
 }
 
 .cadastro {
@@ -84,8 +84,8 @@
   position: relative;
 }
 
-.cadastro:hover{
-  color: #0031AE;
+.cadastro:hover {
+  color: #0031ae;
   transition: ease-in-out 0.4s;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .sobre:hover {
-  color: #0031AE;
+  color: #0031ae;
   transition: ease-in-out 0.4s;
 }
 
@@ -112,3 +112,4 @@
 .toolbar {
   visibility: hidden;
 }
+

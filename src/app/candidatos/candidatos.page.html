@@ -1,0 +1,74 @@
+<ion-header [translucent]="false">
+
+</ion-header>
+<ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+      <a routerLink="/home"><img class="botao-img" src="../../assets/img/BotaoVoltar.png"/></a>
+      <div>
+        <ion-img class="gov" src="../../assets/img/gov.br.png"></ion-img>
+      </div>
+      <ion-item-divider class="line"></ion-item-divider>
+  </ion-header>
+
+  <div class="resultado-text">
+    <ion-subtitle class="text" size="large"><strong>LISTA DE CANDIDATOS </strong></ion-subtitle>
+  </div>
+
+  <ion-grid class="resultado">
+    <ion-row>
+      <ion-col size="6">
+        <img class="foto-candidate" src="../../assets/img/user.png" />
+      </ion-col>
+      <ion-col size="6">
+        <ion-list>
+          <ion-list-header>
+            <ion-label class="nome-candidate">Candidato: José Mário <br><br> Número do Partido: 68</ion-label>
+          </ion-list-header>
+        </ion-list>
+        <ion-progress-bar class="barra" color="tertiary" value="1"></ion-progress-bar>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <img class="foto-candidate" src="../../assets/img/user.png" />
+      </ion-col>
+      <ion-col size="6">
+        <ion-list>
+          <ion-list-header>
+            <ion-label class="nome-candidate">Candidato: João Ferreira <br><br> Número do Partido: 12</ion-label>
+          </ion-list-header>
+        </ion-list>
+        <ion-progress-bar class="barra" color="tertiary" value="1"></ion-progress-bar>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <img class="foto-candidate" src="../../assets/img/user.png" />
+      </ion-col>
+      <ion-col size="6">
+        <ion-list>
+          <ion-list-header>
+            <ion-label class="nome-candidate">Candidato: Juliana Mafra <br><br> Número do Partido: 23</ion-label>
+          </ion-list-header>
+        </ion-list>
+        <ion-progress-bar class="barra" color="tertiary" value="1"></ion-progress-bar>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <img class="foto-candidate" src="../../assets/img/user.png" />
+      </ion-col>
+      <ion-col size="6">
+        <ion-list>
+          <ion-list-header>
+            <ion-label class="nome-candidate">Candidato: Arlindo Correia <br><br> Número do Partido: 77</ion-label>
+          </ion-list-header>
+        </ion-list>
+        <ion-progress-bar class="barra" color="tertiary" value="1"></ion-progress-bar>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-button class="votar" routerLink="/votacao">Votar</ion-button>
+
+</ion-content>

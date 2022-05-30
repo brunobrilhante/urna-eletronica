@@ -7,14 +7,14 @@
     display: grid;
     margin-top: 20px;
   }
-  
+
   .sobre-img{
     position: relative;
     top: 0.4rem;
     width: 1.5rem;
     height: 1.5rem;
   }
-  
+
   .cadastro-text{
     position: relative;
     left: 4rem;
@@ -22,7 +22,7 @@
     bottom: 5rem;
     margin-top: 150px;
   }
-  
+
   .input {
     border: solid 1px #0031AE;
     border-radius: 10px;
@@ -30,7 +30,7 @@
     text-align: center;
     margin-top: 20px;
   }
-  
+
   .input-btn {
     border: solid 1px #0031AE;
     border-radius: 11px;
@@ -47,7 +47,7 @@
     color: #0031AE !important;
     --background: white;
   }
-  
+
   .line {
     background-color: white;
     max-height: 1px !important;
@@ -55,22 +55,23 @@
     width: 100%;
     border-top: solid 1px #0031AE;
   }
-  
+
   .sobre {
     color: black;
     transition: ease-in-out 0.4s;
   }
-  
+
   .sobre:hover {
     color: #0031AE;
     transition: ease-in-out 0.4s;
   }
-  
+
   .alinhamento {
     position: relative;
-    left: 60px;
+    top: 170px;
+    right: 100px;
   }
-  
+
   .botao-img {
     position: relative;
     top: 40px;
@@ -78,9 +79,8 @@
     width: 1.5rem;
     height: 1.5rem;
   }
-  
+
   .xetelba {
     position: relative;
     left: 16px;
   }
-  
