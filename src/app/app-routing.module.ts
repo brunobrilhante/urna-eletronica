@@ -20,10 +20,6 @@ const routes: Routes = [
     loadChildren: () => import('./fim-votacao/fim-votacao.module').then( m => m.FimVotacaoPageModule)
   },
   {
-    path: 'resultado',
-    loadChildren: () => import('./resultado/resultado.module').then( m => m.ResultadoPageModule)
-  },
-  {
     path: 'sobre',
     loadChildren: () => import('./sobre/sobre.module').then( m => m.SobrePageModule)
   },

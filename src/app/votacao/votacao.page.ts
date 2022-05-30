@@ -40,6 +40,13 @@ export class VotacaoPage implements OnInit {
     return (numeros = []), (brancos = []);
   }
 
+  // getVoto(numero){
+  //   axios.get(`http://localhost:8080/urna/getVoto/${numero}`).then(({data})=>{
+  //     console.log(data);
+  //     return data
+  //   })
+  // }
+
   branco() {
     axios.get(`http://localhost:8080/urna/atualizarVoto/branco`);
   }

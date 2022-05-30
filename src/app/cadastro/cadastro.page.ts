@@ -3,21 +3,30 @@ import axios from 'axios';
 import { AlertController } from '@ionic/angular';
 import { NavController } from '@ionic/angular';
 
-
 @Component({
   selector: 'app-cadastro',
   templateUrl: './cadastro.page.html',
   styleUrls: ['./cadastro.page.scss'],
 })
 export class CadastroPage {
-  constructor(public alertController: AlertController,  private nvCtrl: NavController) {}
+  constructor(
+    public alertController: AlertController,
+    private nvCtrl: NavController
+  ) {}
 
   async presentAlert(header, subHeader, message) {
     const alert = await this.alertController.create({
       header,
       subHeader,
       message,
-      buttons: ['OK'],
+      buttons: [
+        {
+          text: 'OK',
+          handler: () => {
+            this.nvCtrl.navigateForward('/home');
+          },
+        },
+      ],
     });
 
     await alert.present();

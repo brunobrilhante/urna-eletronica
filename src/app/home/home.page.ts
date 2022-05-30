@@ -19,14 +19,7 @@ export class HomePage {
       header: 'Erro',
       subHeader,
       message,
-      buttons: [
-        {
-          text: 'OK',
-          handler: () => {
-            console.log('Confirm Okay');
-          },
-        },
-      ],
+      buttons: ['OK'],
     });
 
     await alert.present();
